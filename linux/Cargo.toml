@@ -1,0 +1,14 @@
+[package]
+name = "recm2tv"
+version = "0.1.0"
+edition = "2021"
+description = "Linux recorder for the I-O DATA GV-M2TV"
+
+[dependencies]
+aes = "0.8"
+clap = { version = "4", features = ["derive"] }
+cipher = "0.4"
+ctrlc = "3"
+rusb = "0.9"
+sha1 = "0.10"
+thiserror = "1"
