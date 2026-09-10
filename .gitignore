@@ -25,6 +25,10 @@ Packages/
 Package.pins
 Package.resolved
 
+# Rust build artifacts
+linux/target/
+linux/Cargo.lock
+
 # CocoaPods / Carthage
 Pods/
 Carthage/Build/

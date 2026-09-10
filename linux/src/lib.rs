@@ -1,9 +1,9 @@
-pub mod device;
-pub mod protocol;
-pub mod lifecycle;
-pub mod ts;
 pub mod auth;
 pub mod bcas;
+pub mod device;
+pub mod lifecycle;
+pub mod protocol;
+pub mod ts;
 
 #[derive(Debug, thiserror::Error)]
 pub enum Error {
